@@ -73,17 +73,3 @@ df_bad_trigrams.groupby('Trigram').sum()['Frequency'].sort_values(ascending=Fals
     kind='bar', title='Top 20 Trigramas "Malas críticas"')
 plt.xticks(rotation=45)
 plt.show()
-
-
-# ¿Son los resultados útiles?
-# Bigramas y trigramas:
-# Los bigramas y trigramas pueden proporcionar contexto adicional al mostrar combinaciones comunes de palabras que aparecen juntas, 
-# como "great service" o "bad experience".
-
-# En buenas críticas, es probable que encuentres combinaciones positivas como "friendly staff" o "delicious food".
-
-# En malas críticas, podrías encontrar bigramas o trigramas negativos como "bad service" o "wait long time".
-
-# Al comparar estos resultados con las palabras individuales más comunes, los bigramas y trigramas ofrecen una 
-# visión más detallada del contexto y pueden ayudar a detectar frases recurrentes tanto en las experiencias 
-# positivas como en las negativas.

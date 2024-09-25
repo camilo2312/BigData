@@ -31,4 +31,4 @@ def word_cloud_rating(data, star_value):
 data = pd.read_csv('sdata.csv')
 
 # Visualizar la nube de palabras para reseñas de 1 estrella
-word_cloud_rating(data, 1)
+word_cloud_rating(data, 3)
